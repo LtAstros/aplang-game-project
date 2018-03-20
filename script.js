@@ -25,7 +25,7 @@ function defPopup (){
     alert(words[popup].def); 
 }
 function guessWord (r){
-    $("#question").html("<p class='col-sm-12'>Write the word that corosponds with this definition: "+words[r].def+"</p>");
+    $("#question").html("<p class='col-sm-12'>Write the word that corresponds with this definition: "+words[r].def+"</p>");
     $("#box").show();
 }
 function answer (r){
